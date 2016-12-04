@@ -42,4 +42,24 @@
     });
 }
 
+- (NSInteger)sum:(NSInteger)a into:(NSInteger)b {
+    return a + b;
+}
+
+- (NSInteger)subtract:(NSInteger)a from:(NSInteger)b {
+    return - a + b;
+}
+
+- (NSInteger)multiply:(NSInteger)a by:(NSInteger)b {
+    return a * b;
+}
+
+- (NSInteger)divide:(NSInteger)a by:(NSInteger)b {
+    return a / b;
+}
+
+- (NSDate *)getCurrentDate {
+    return [NSDate date];
+}
+
 @end
